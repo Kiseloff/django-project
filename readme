@@ -31,3 +31,5 @@ python manage.py makemigrations
 // apply migration
 python manage.py migrate
 
+# DB queries = QuerySet (python manage.py shell)
+
