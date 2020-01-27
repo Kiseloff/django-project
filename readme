@@ -1,0 +1,33 @@
+# INIT CONFIGURATION
+
+// Install Django
+pip install django
+
+// Create the Django project
+django-admin startproject firstproject .
+
+// start Django's development server
+python manage.py runserver
+
+# APPLICATION
+
+// Create application
+python manage.py startapp firstapp
+
+// Connect app
+project/settings.py -> INSTALLED_APPS
+
+# DB management
+
+// basement migrations
+python manage.py migrate
+
+// creare superuser
+python manage.py createsuperuser
+
+// create migration
+python manage.py makemigrations
+
+// apply migration
+python manage.py migrate
+
